@@ -1,0 +1,3 @@
+console.wait.key |"Press any key to vent!"|;
+console.object.load |("Venting . . .","%",10,100)|;
+console.overwrite |"Sus",-1|;
