@@ -1,0 +1,16 @@
+@kit.make |acc,player|;
+@kit.make |amount,0|;
+console.send |"type your fardknight username"|;
+kit.set.from.input |acc|;
+console.send |"type how much Vbucks you want to generate"|;
+kit.set.from.input |amount|;
+console.cursor.vis |false|;
+console.object.load |("Conecting to fradnight... ","%",10)|;
+console.object.load |("Finding Account... ","%",10)|;
+console.send |"Found your account"|;
+kit.get |acc|;
+console.object.load |("Generating Code... ","%",10)|;
+console.object.load |("Verifying that your not a robot... ","%",10)|;
+console.wait.key |"Press any key to verify"|;
+console.send |"SIKE!"|;
+sys.run |"Start chrome www.youtube.com/watch?v=dQw4w9WgXcQ"|;
